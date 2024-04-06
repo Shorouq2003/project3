@@ -1,0 +1,408 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 15px;
+}
+
+header {
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    overflow: auto;
+    padding: 20px;
+    border: 1px solid rgba(182, 181, 181, 0.719);
+}
+
+header img {
+    margin-top: 5px;
+    width: 100px;
+    height: 50px;
+}
+
+.form {
+    float: right
+}
+
+form {
+    text-align: center;
+    margin-right: 500px;
+    size: 20px;
+    padding-top: 20px;
+}
+
+.form label {
+    color: rgb(241, 104, 150);
+    font-size: 20px;
+}
+
+select {
+    background-color: rgb(255, 204, 221);
+}
+
+.form input {
+    background-color: rgb(255, 204, 221);
+    border-radius: 20px;
+    width: 250px;
+}
+
+#search {
+    padding-right: 20px;
+}
+
+nav {
+    background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+    border: 1px solid rgba(182, 181, 181, 0.719);
+
+}
+
+nav ul {
+    display: flex;
+    gap: 150px;
+    list-style: none;
+    justify-content: center;
+    padding: 20px;
+}
+
+nav ul li a {
+    color: rgb(99, 98, 98);
+    text-decoration: none;
+    transition: 1s;
+}
+
+nav ul li a:hover {
+    color: rgb(100, 134, 173);
+    background-color: rgba(247, 244, 244, 0.541);
+}
+
+.sec1 img {
+    width: 100%;
+    height: 600px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.left1 {
+    width: 350px;
+    height: 100px;
+    background-color: #feada6;
+    text-align: center;
+    border-radius: 0 50px 0 50px;
+    border: 3px dotted rgb(125, 168, 185);
+}
+
+.center1 {
+    width: 350px;
+    height: 100px;
+    background-color: #feada6;
+    text-align: center;
+    border-radius: 0 50px 0 50px;
+    border: 3px dotted rgb(125, 168, 185);
+}
+
+.right1 {
+    width: 350px;
+    height: 100px;
+    background-color: #feada6;
+    text-align: center;
+    border-radius: 0 40px 0 40px;
+    border: 3px dotted rgb(125, 168, 185);
+}
+
+.flex h5 {
+    color: rgb(185, 77, 58);
+    font-size: large;
+    padding-top: 5px;
+}
+
+.flex p {
+    padding-top: 20px;
+    color: rgb(104, 104, 36);
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.flex1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.flex1 img {
+    width: 500px;
+    height: 500px;
+}
+
+hr {
+    color: rgb(132, 177, 162);
+    padding-top: 30px;
+}
+
+h2 {
+    color: #bd5248;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 70px;
+
+}
+
+.flex2 img {
+    width: 300px;
+    height: 300px;
+}
+
+.shop {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+/*contact*/
+.form1 {
+    width: 800px;
+    height: 600px;
+    padding: 100px 40px 40px 40px;
+    margin: 90px 50px 50px 400px;
+    text-align: center;
+    border-radius: 0px 80px 0px 80px;
+    background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+}
+
+.form1:hover {
+    border: 5px dashed rgb(37, 37, 37);
+}
+
+.form1 label {
+    margin: 0px 0px 0px 60px;
+    color: #6586b8;
+}
+
+.form1 input {
+    width: 500px;
+    height: 40px;
+    border: 2px solid rgba(90, 90, 36, 0.836);
+    border-radius: 40px;
+    margin: 25px 25px 25px 100px;
+    background-color: #eec2d6;
+}
+
+#submit {
+    width: 60px;
+    text-align: center;
+    margin-left: 300px;
+}
+
+/* about*/
+.about {
+    padding: 30px;
+    width: 50%;
+    display: inline-block;
+    min-height: 100%;
+}
+
+.about h2 {
+    margin-right: 300px;
+}
+
+.about p {
+    padding-top: 40px;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.right img {
+    display: inline-block;
+    width: 600px;
+    height: 300px;
+    margin-right: 100px;
+    margin-top: -300px;
+    float: right;
+}
+
+.custom-shape-divider-bottom-1712260030 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1712260030 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 212px;
+}
+
+.custom-shape-divider-bottom-1712260030 .shape-fill {
+    fill: #b5c2e6;
+    padding-top: 40px;
+}
+
+.foot h5 {
+    font-size: 20px;
+    text-align: center;
+}
+
+/*media queries*/
+@media (max-width:600px) {
+
+    /*home*/
+    nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left1 {
+        width: 280px;
+        height: 90px;
+    }
+
+    .center1 {
+        width: 280px;
+        height: 90px;
+
+    }
+
+    .right1 {
+        width: 280px;
+        height: 90px;
+    }
+
+    .flex h5 {
+        font-size: 15px;
+    }
+
+    .flex p {
+        font-size: 10px;
+    }
+
+    .flex1 img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .flex2 img {
+        width: 100px;
+        height: 100px;
+    }
+
+    /*about*/
+    .about p {
+        font-size: 15px;
+    }
+
+    .about h2 {
+        font-size: 30px;
+        line-height: 25px;
+    }
+
+    .right img {
+        width: 300px;
+        height: 150px;
+        margin-right: 20px;
+    }
+
+    .custom-shape-divider-bottom-1712260030 svg {
+        height: 100px;
+    }
+
+    /*contact*/
+    .form1 {
+        width: 450px;
+        height: 450px;
+        margin: 90px 20px 50px 50px;
+    }
+
+    .form1 label {
+        margin: 50px 0px 100px 10px;
+        font-size: 15px;
+    }
+
+    .form1 input {
+        width: 250px;
+        height: 20px;
+        margin: 25px 25px 25px 50px;
+    }
+
+    #submit {
+        width: 60px;
+        text-align: center;
+        margin-left: 140px;
+        margin-bottom: 3opx;
+    }
+}
+
+@media (min-width:601px) and (max-width:1200px) {
+
+    /*home*/
+    .flex1 img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .flex2 img {
+        width: 130px;
+        height: 130px;
+    }
+
+    /*about*/
+    .about h2 {
+        font-size: 20px;
+        line-height: 15px;
+    }
+
+    .about p {
+        font-size: 15px;
+    }
+
+    .right img {
+        width: 450px;
+        height: 250px;
+
+    }
+
+    /*contact*/
+    .form1 {
+        width: 550px;
+        height: 550px;
+        margin: 90px 20px 50px 125px;
+    }
+
+    .form1 label {
+        margin: 50px 0px 100px 10px;
+        font-size: 20px;
+    }
+
+    .form1 input {
+        width: 300px;
+        height: 20px;
+        margin: 25px 25px 25px 90px;
+    }
+
+    #submit {
+        width: 60px;
+        text-align: center;
+        margin-left: 200px;
+        margin-bottom: 3opx;
+    }
+}
